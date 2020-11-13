@@ -7,8 +7,7 @@ import ReactGA from 'react-ga';
 // Layouts
 import Registro from './layouts/Registro';
 
-//Terminosy condiciones
-import TerminosCondiPage from './layouts/TerminosCondiPage';
+
 //Iniciar Sesion
 import IniciarSesPage from './layouts/IniciarSesPage';
 
@@ -64,7 +63,7 @@ const App = () => {
           <AppRoute exact path="/registro"  layout={Registro} />
           <AppRoute exact path="/" component={Home} layout={RegistroInsta} />
           <AppRoute exact path="/IniSes"  layout={IniciarSesPage} />
-          <AppRoute exact path="/terminos"  layout={TerminosCondiPage} />
+         
          
          
           <AppRoute exact path="/instrucciones"  layout={instruccionesTest} />
