@@ -13,7 +13,7 @@ import {
   CodeWrapper
 } from "./formik/styles";
 
-import  {TerminosCondi}  from "../components/layout/TerminosCondi";
+
 
 const validationSchema = Yup.object().shape({
   fullname: Yup.string()
@@ -39,9 +39,7 @@ const Registro=()=> {
   
   
 }
-if(showComponent==true){
-  return <TerminosCondi />
-}
+
   return (
     <PageWrapper>
       

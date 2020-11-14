@@ -68,7 +68,11 @@ export default function Fotos() {
       <GridList className={classes.gridList} cols={2.5}>
         {tileData.map((tile) => (
           <GridListTile key={tile.img}>
-            <img src={tile.img} alt={tile.title} />
+           <ul>
+             <li>{tile.img}</li>
+             <li>{tile.title}</li>
+           </ul>
+
             
           </GridListTile>
         ))}
